@@ -1,0 +1,194 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.titrePrincipal {
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background: linear-gradient(
+    91deg,
+    #0085ff 2.43%,
+    rgba(0, 133, 255, 0.21) 106.96%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.divTitrePrincipal {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main {
+  position: relative;
+  margin-top: 5%;
+  left: 15%;
+  width: 25%;
+  z-index: 2;
+}
+
+.recherche {
+  position: relative;
+  left: 40%;
+}
+
+#re {
+  display: inline;
+  font-size: 30px;
+  color: rgba(27, 111, 209, 0.8);
+}
+
+#imageAccueil {
+  position: absolute;
+  margin-top: -7%;
+}
+
+#boutonConnexion,
+#boutonInscrire {
+  color: rgba(27, 111, 209, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 6.5%;
+  display: block;
+  height: 6.5%;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  border: 3px solid rgba(27, 111, 209, 0.8);
+  background: linear-gradient(270deg, #1cb89c 1.3%);
+}
+
+.gauche {
+  width: 100%;
+  position: absolute;
+  top: 2%;
+  left: 85%;
+}
+
+#client {
+  position: relative;
+  padding: 5px 10px 5px 10px;
+  display: inline;
+  right: -400px;
+  top: -300px;
+}
+
+header {
+  margin-top: 7%;
+}
+
+nav {
+  margin-left: 0.5%;
+}
+
+ul {
+  margin-left: 10%;
+  list-style-type: disc;
+}
+
+#panier {
+  position: relative;
+  left: 5%;
+}
+
+#addPanier {
+  position: relative;
+  margin-top: 2.5%;
+  width: 60%;
+  background-color: #0085ff;
+  font-size: 20px;
+  border:none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#supprimer_recette {
+  cursor:pointer;
+}
+
+#wave1 {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  z-index: 1;
+}
+
+.menuButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  width: 180px;
+  height: 30px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+.recetteContent {
+  width: 40%;
+  position: relative;
+  left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  border: #0085ff 4px solid;
+  border-radius: 15px;
+  padding: 3%;
+  background-color: #acd7ff;
+  z-index: 2;
+}
+
+.recette {
+  width: 25%;
+}
+
+.mainContent {
+  display: flex;
+  margin-left: 15%;
+  flex-direction: row;
+}
+
+.choix {
+  font-size: 45px;
+  color: #0085ff;
+}
+
+h2.choixRecette {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #0085ff;
+}
+
+.texteRecette {
+  margin-top: 2%;
+  color: #89b7e2;
+  line-height: 20px;
+}
+
+nav{
+  background-color: grey;
+  width: 10%;
+  position: absolute;
+  padding: 3% 3% 3% 3%;
+  left: 0;
+}

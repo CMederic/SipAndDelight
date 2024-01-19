@@ -1,0 +1,55 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  
+.titrePrincipal {
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(
+      91deg,
+      #0085ff 2.43%,
+      rgba(0, 133, 255, 0.21) 106.96%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+  
+.divTitrePrincipal {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#wave1 {
+    position: fixed;
+    top: 56%;
+    z-index: 1;
+}
+
+.monPanier {
+    font-size: 45px;
+    color: #0085ff;
+    margin-bottom: 3%;
+}
+
+.content {
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+}
+
+.recettePanier {
+    display: flex;
+    flex-direction: row;
+}
+
+.nomRecette {
+    margin-right: 3%;
+    font-size: 25px;
+    color: #89b7e2;
+}
